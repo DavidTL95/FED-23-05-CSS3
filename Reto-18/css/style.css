@@ -1,0 +1,47 @@
+.contenedorpequeño{
+    background-color: lightblue;
+    height: 8vh;
+    width: 9vw;
+    background-image: url("../img/nubes.png");
+    background-repeat: no-repeat;
+    border: 3px solid blue;
+}
+
+
+.nubes{
+    height: 100%;
+    background-image: url("../img/mario.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.suelo{
+    height: 100%;
+    background-image: url("../img/barra.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.contenedorgrande{
+    background-color: lightblue;
+    height: 16vh;
+    width: 18vw;
+    background-image: url("../img/nubes.png");
+    background-repeat: repeat-x;
+    border: 3px solid red;
+}
+
+.nubesgrande{
+    height: 50%;
+    background-image: url("../img/mario.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 6.5rem;
+}
+
+.suelogrande{
+    height: 100%;
+    background-image: url("../img/barra.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+}

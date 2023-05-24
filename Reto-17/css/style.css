@@ -1,0 +1,115 @@
+.fondo{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/flores.jpg");
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 10rem;
+}
+
+div{
+    border: 0.1rem solid black;
+    width: 10vw;
+    height: 15vh;
+}
+
+.a{
+    background-image: url("../img/mantel.jpg");
+}
+
+.b{
+    margin:0 auto;
+    width: 80%;
+    height: 80%;
+    background-image: url("../img/mantel.jpg");
+}
+
+.c{
+    background-image: url("../img/mantel.jpg");
+    background-size: contain;
+}
+
+.contenedord{
+    background-color: #F1F1EF;
+}
+
+.d{
+    margin:0 auto;
+    width: 80%;
+    height: 80%;
+    background-image: url("../img/mantel.jpg");
+    border: none;
+}
+
+.e{
+    background-image: url("../img/señor-cuadrado.jpg");
+    background-size: cover;
+}
+
+.contenedorf{
+    background-color: #F1F1EF;
+}
+
+.f{
+    margin:0 auto;
+    width: 80%;
+    height: 80%;
+    background-image: url("../img/señor-cuadrado.jpg");
+    background-size: cover;
+    border: none;
+}
+
+.contenedorg{
+    background-color: #F1F1EF;
+}
+
+.g{
+    margin-top: 13%;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/señor-ancho.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.contenedorh{
+    display: flex;
+    background-color: #F1F1EF;
+    margin: 0;
+    padding: 0;
+}
+
+.h{
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-image: url("../img/señor-vertical.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    margin-left: 25%;
+    margin-bottom: 50%;
+}
+
+.i{
+    background-image: linear-gradient(to right, #94e9b2, #85dba3, #77cd95, #68bf86, #5ab178, #50a86e, #469e64, #3b955a, #338d51, #2a8549, #217e40, #167638);
+}
+
+.j{
+    background: linear-gradient(rgba(239,178,162,1) 0%, rgba(66,45,39,1) 89%, rgba(66,45,39,1) 90%, rgba(239,178,162,1) 100%);
+}
+
+.k{
+    background: linear-gradient(rgba(191,239,162,1) 0%, rgba(53,77,39,1) 100%);
+}
+
+.l{
+    background: linear-gradient(rgba(191,239,162,0) 0%, rgba(53,77,39,1) 100%);
+}

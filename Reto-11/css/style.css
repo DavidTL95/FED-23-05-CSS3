@@ -1,0 +1,30 @@
+*{
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado{
+    background-color: #003331;
+    color: #D2FBCE;
+}
+
+.oscura{
+    border: 1px solid rgb(66, 123, 142);
+    background-color: #9ACC94;
+}
+
+table{
+    width: 20%;
+    border-spacing: 0;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+td, th{
+    border: 1px solid rgb(66, 123, 142);
+    background-color: #D2FBCE;
+}

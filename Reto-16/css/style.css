@@ -1,0 +1,38 @@
+*{
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.encabezado{
+    background-color: #679769;
+}
+
+.salmon{
+    background-color: #FFCB99;
+}
+
+.amarillo{
+    background-color: #FDFE97;
+}
+
+.relleno{
+    background-image: url("../img/patron.jpg");
+    background-repeat: no-repeat;
+}
+
+table{
+    color: rgb(137, 0, 0);
+    width: 30%;
+    border-spacing: 0;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-bottom: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+td, th{
+    border: 1px solid rgb(66, 123, 142);
+}
